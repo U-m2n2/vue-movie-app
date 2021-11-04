@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
-    "dev:netlify": "netlify dev",
+    "dev:webpack": "webpack-dev-server --mode development",
+    "dev": "netlify dev",
     "build": "webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue"
   },
@@ -21,6 +21,7 @@
     "babel-loader": "^8.2.3",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.4.0",
+    "dotenv-webpack": "^7.0.3",
     "eslint": "^8.1.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
